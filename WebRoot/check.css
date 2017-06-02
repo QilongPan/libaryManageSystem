@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.top {
+	background-color:#9FC;
+	height:70px;
+	width:100%;
+	text-align:center ;
+	font-family:"微软雅黑";
+	font-size:20px;
+	line-height:30px;
+	color:#C69;
+}
+
+.container {
+	margin-top:50px;
+	margin-left:580px;
+	width:300px;
+	height:400px;
+	
+}
+
+.container table {
+	font-family:"微软雅黑" ;
+	font-size:16px;
+}
+
+.container  table tr {
+	margin-top:15px;
+}
+
+.submit {
+	width:50px;
+	height:30px;
+	position:relative;
+	left:100px;
+	margin-right:25px;
+	margin-top:30px;
+}

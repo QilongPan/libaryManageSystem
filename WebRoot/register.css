@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.container{
+	width:300px;
+	margin:0 auto;
+}
+.reset{
+	float:right;
+	margin-right:80px;
+}
+.password{
+	font-family:Wingdings;
+	width:150px;
+}

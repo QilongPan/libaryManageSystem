@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveUser</servlet-name>
+    <servlet-class>ser.SaveUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUser</servlet-name>
+    <servlet-class>ser.QueryUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Enter</servlet-name>
+    <servlet-class>ser.Enter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>ser.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllUser</servlet-name>
+    <servlet-class>ser.QueryAllUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllUser</servlet-name>
+    <servlet-class>ser.AllUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>ser.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveBook</servlet-name>
+    <servlet-class>ser.SaveBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteBook</servlet-name>
+    <servlet-class>ser.DeleteBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBook</servlet-name>
+    <servlet-class>ser.UpdateBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchBook</servlet-name>
+    <servlet-class>ser.SearchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PathSearchBook</servlet-name>
+    <servlet-class>ser.PathSearchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookNameSBook</servlet-name>
+    <servlet-class>ser.BookNameSBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyBook</servlet-name>
+    <servlet-class>ser.BuyBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyBookEnter</servlet-name>
+    <servlet-class>ser.BuyBookEnter</servlet-class>
+  </servlet>
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error.jsp</location>
+  </error-page>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SaveUser</servlet-name>
+    <url-pattern>/servlet/SaveUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUser</servlet-name>
+    <url-pattern>/servlet/QueryUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Enter</servlet-name>
+    <url-pattern>/servlet/Enter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/servlet/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllUser</servlet-name>
+    <url-pattern>/servlet/QueryAllUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllUser</servlet-name>
+    <url-pattern>/servlet/AllUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveBook</servlet-name>
+    <url-pattern>/servlet/SaveBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBook</servlet-name>
+    <url-pattern>/servlet/DeleteBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBook</servlet-name>
+    <url-pattern>/servlet/UpdateBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBook</servlet-name>
+    <url-pattern>/servlet/SearchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PathSearchBook</servlet-name>
+    <url-pattern>/servlet/PathSearchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookNameSBook</servlet-name>
+    <url-pattern>/servlet/BookNameSBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyBook</servlet-name>
+    <url-pattern>/servlet/BuyBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyBookEnter</servlet-name>
+    <url-pattern>/servlet/BuyBookEnter</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
